@@ -1,6 +1,6 @@
 :root {
 	--color-palete-red:  #e6563b;
-	--color-palete-yellow: #3eb9d3a;
+	--color-palete-yellow: #eb9d3a;
 	--color-palete-green: #7cb06c;
 	--color-palete-blue: #00aba9;
 	--color-palete-white: #f0f0f0;
@@ -12,4 +12,35 @@
 	font-family: Anton;
 	src: url("fonts/Anton/Anton-Regular.ttf")
 	format("truetype");
+}
+.Logo {
+	width: var(--logo-size);
+	height: var(--logo-size);
+	background-color: #e6563b;
+	border-radius: 15px;
+}
+.icon{
+	display: inline-block;
+	width: var(--icon-size);
+	height: var(--icon-size);
+	color: white;
+	border-radius: 15px;
+	border: white 1px solid;
+	font-size: xx-small;
+}
+.icon-red{
+	background-color: var(--color-palete-red);
+
+}
+.icon-yellow{
+	background-color: var(--color-palete-yellow);
+	
+}
+.icon-green{
+	background-color: var(--color-palete-green);
+
+}
+.icon-blue{
+	background-color: var(--color-palete-blue);
+	
 }
