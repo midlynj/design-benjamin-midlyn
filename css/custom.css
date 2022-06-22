@@ -1,0 +1,15 @@
+:root {
+	--color-palete-red:  #e6563b;
+	--color-palete-yellow: #3eb9d3a;
+	--color-palete-green: #7cb06c;
+	--color-palete-blue: #00aba9;
+	--color-palete-white: #f0f0f0;
+	--color-palete-gray: #e6e6e6;
+	--icon-size: 18px;
+	--logo-size: 105px;
+}
+@font-face{
+	font-family: Anton;
+	src: url("fonts/Anton/Anton-Regular.ttf")
+	format("truetype");
+}
