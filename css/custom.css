@@ -17,16 +17,31 @@
 	width: var(--logo-size);
 	height: var(--logo-size);
 	background-color: #e6563b;
-	border-radius: 15px;
+	border-radius: 50%;
 }
-.icon{
-	display: inline-block;
-	width: var(--icon-size);
-	height: var(--icon-size);
+.lg-icon{
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: .5em;
+	width: 64px;
+	height: 64px;
 	color: white;
-	border-radius: 15px;
+	border-radius: 50px;
 	border: white 1px solid;
-	font-size: xx-small;
+	font-size: 14px;
+}
+.hr{
+	display: block;
+	content: "";
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: black 1px dotted;
+}
+.lg-icon:hover{
+	color: black;
+	box-shadow: 4px 4px red, -.8em 0 .4em olive;
 }
 .icon-red{
 	background-color: var(--color-palete-red);
