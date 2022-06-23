@@ -8,13 +8,16 @@
 	--icon-size: 18px;
 	--logo-size: 105px;
 }
+body{
+	background-color: #eee;
+}
 @font-face{
 	font-family: Anton;
 	src: url("fonts/Anton/Anton-Regular.ttf")
 	format("truetype");
 }
 *{
-	font-family: Anton
+	font-family: Anton;
 }
 .Logo {
 	width: var(--logo-size);
@@ -31,7 +34,7 @@
 	height: 64px;
 	color: white;
 	border-radius: 50px;
-	border: white 1px solid;
+	border: white 2px solid;
 	font-size: 14px;
 }
 .hr{
@@ -60,5 +63,8 @@
 }
 .icon-blue{
 	background-color: var(--color-palete-blue);
-	
-}
+}	
+/* 
+.hide-on-phone{
+	visibility: hidden;
+} */
