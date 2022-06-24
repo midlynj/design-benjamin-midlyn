@@ -37,13 +37,12 @@ body{
 	border: white 2px solid;
 	font-size: 14px;
 }
-.hr{
-	display: block;
-	content: "";
-	height: 1px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border: black 1px dotted;
+.icon-sm {
+	width: var(--icon-size);
+	height: var(--icon-size);
+	border-radius: 50%;
+	color: white;
+	padding-left: .2em;
 }
 .lg-icon:hover{
 	color: black;
@@ -63,7 +62,15 @@ body{
 }
 .icon-blue{
 	background-color: var(--color-palete-blue);
-}	
+}
+.hr{
+	display: block;
+	content: "";
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: black 1px dotted;
+}
 /* 
 .hide-on-phone{
 	visibility: hidden;
