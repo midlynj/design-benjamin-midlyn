@@ -9,7 +9,7 @@
 	--logo-size: 105px;
 }
 body{
-	background-color: #eee;
+	background-color: var(--color-palete-gray);
 }
 @font-face{
 	font-family: Anton;
@@ -34,7 +34,7 @@ body{
 	height: 64px;
 	color: white;
 	border-radius: 50px;
-	border: white 2px solid;
+	border: var(--color-palete-white) 2px solid;
 	font-size: 14px;
 }
 .icon-sm {
@@ -72,13 +72,16 @@ body{
 	border: black 1px dotted;
 }
 .iph {
-	width: 300px;
-	height: 150px;
+	width: 550px;
+	height: 275px;
 }
 .iph1 {
-	width: 200px;
-	height: 100px;
+	width: 125px;
+	height: 125px;
 	background-color: black;
+}
+h1,h2,h5 {
+	font-weight: bolder;
 }
 /* 
 .hide-on-phone{
