@@ -129,7 +129,13 @@ body{
 }
 @media only screen and (min-width: 768px) {
 body{
-	background-color: lavender;
+	background-color: mediumpurple;
+}
+.icon-sm {
+	font-size: .9em;
+}
+.lg-icon {
+	font-size: .9em;
 }
 }
 @media only screen and (min-width: 992px) {
