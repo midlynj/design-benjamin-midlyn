@@ -8,6 +8,7 @@
 	--icon-size: 18px;
 	--logo-size: 105px;
 }
+
 body{
 	background-color: var(--color-palete-gray);
 }
@@ -87,4 +88,9 @@ h1,h2,h5 {
 .hide-on-phone{
 	visibility: hidden;
 }
+
+.hr {
+	visibility: hidden;
+}
+
 }
