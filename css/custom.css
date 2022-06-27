@@ -21,8 +21,8 @@ body{
 	font-family: Anton;
 }
 .Logo {
-	width: var(--logo-size);
-	height: var(--logo-size);
+	/* width: var(--logo-size);
+	height: var(--logo-size); */
 	background-color: #e6563b;
 	border-radius: 50%;
 }
