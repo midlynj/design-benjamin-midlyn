@@ -89,16 +89,15 @@ h1,h2,h5 {
 	font-weight: bolder;
 }
 @media only screen and (max-width: 992px) {
+	/* mobile */
 .hide-on-phone{
 	visibility: hidden;
 }
 }
-
-/*@media only screen and (max-width: 768px) {
-
-}*/
-
 @media only screen and (max-width: 768px){
+	.hr {
+		visibility: hidden;
+	}
 	.lg-icon{
 		display: block;
 		text-align: center;
@@ -117,4 +116,36 @@ h1,h2,h5 {
 		padding-left: .5em;
 		font-size: 2vw;
 	}
+}
+@media only screen and (max-width: 576px) {
+body{
+	background-color: skyblue;
+}
+}
+@media only screen and (min-width: 577px) {
+body{
+	background-color: pink;
+}
+}
+@media only screen and (min-width: 768px) {
+body{
+	background-color: lavender;
+}
+}
+@media only screen and (min-width: 992px) {
+body{
+	background-color: palegreen;
+}
+}
+@media only screen and (min-width: 1200px) {
+body{
+	background-color: khaki;
+
+}
+}
+@media only screen and (min-width: 1900px) {
+body{
+	background-image: url("../assets/img/Backgroung.png");
+	background-position: center center;
+}
 }
