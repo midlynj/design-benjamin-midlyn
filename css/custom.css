@@ -126,6 +126,10 @@ h1,h2,h5 {
 .nav-toggler {
 	margin-right: 10px;
 }
+
+#abel-font {
+	font-family: "abel r";
+}
 @media only screen and (max-width: 576px) {
 body{
 	background-color: skyblue;
